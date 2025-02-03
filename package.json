@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "concurrently \"nodemon producer-service/server.js\" \"nodemon consumer-service/server.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
